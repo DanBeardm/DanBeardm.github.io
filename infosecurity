@@ -66,65 +66,59 @@
             <ul>E: Turn off her computer monitor</ul>
             <ul>F: Ask her colleague to watch the screen and press 'OK' when the transfer is done</ul>
 
-            <p>Answer: A, B, E</p>
+            <p>Answer: At least A & D </p>
         </div>
 
         <div class="question"> 
             <h3>Question 6</h3>
-            <ul>A: Tell them the information they're looking for</ul>
-            <ul>B: Get up with all your belongings and talk to your colleague in the empty vestibule</ul>
-            <ul>C: Explain that you're on a train and can't give them the information right now</ul>
-            <ul>D: Keep your voice low and tell them some information but not all of it</ul>
+            <ul>A: Finding information on a client's website</ul>
+            <ul>B: Checking flight times for business travel</ul>
+            <ul>C: Paying a friend via online banking</ul>
+            <ul>D: Using a company printer to print tickets for a show</ul>
+            <ul>E: Checking property listings</ul>
+            <ul>F: Downloading work related software</ul>
 
-            <p>Answer: A, C, D</p>
+            <p>Answer: A, B, F</p>
         </div>
 
         <div class="question"> 
             <h3>Question 7</h3>
-            <p>Correct Order</p>
-            <ul>1: Check authority or permission</ul>
-            <ul>2: Check necessity</ul>
-            <ul>3: Check markings</ul>
-            <ul>4: Follows security standards</ul>
-            <ul>5: Send</ul>
+            <ul>A: During his break, Benny booked a table at a restaurant for a casual dinner with his colleagues. When asked for 
+                his contact information, he listed his company email address</ul>
+            <ul>B: Chidi used his company email address to register 
+                for an insurer's mailing list</ul>
+            <ul>C: Before work, Shari emailed her landlord about an upcoming inspection of the property she is renting</ul>
+            
+            <p>Answer: C</p>
         </div>
 
         <div class="question"> 
             <h3>Question 8</h3>
-            <ul>A: They should set an example by 
-                handling information in a sensitive and appropriate manner</ul>
-            <ul>B: They must follow company policies and procedures</ul>
-            <ul>C: They must take full responsibility for every 
-                instance of data misuse in their team, even if it wasn't their fault</ul>
-            <ul>D: They need to understand what constitutes 'sensitive' information</ul>
-            <ul>E: Manager's focus on the day-to-day workings of their team 
-                – it has nothing to do with protecting information</ul>
+            <ul>A: Shutdown your computer and perform a system restore</ul>
+            <ul>B: Download reliable anti-virus software from the internet</ul>
+            <ul>C: Work as normal, but make sure all of your work is backed up on the cloud</ul>
+            <ul>D: Stop working and contact your manager/IT department</ul>
 
-            <p>Answer: A, B, D</p>
+            <p>Answer: D</p>
         </div>
 
         <div class="question"> 
             <h3>Question 9</h3>
-            <ul>A: You've been authorised to share 
-                the information the charity is requesting, so send over the entire file</ul>
-            <ul>B: Encrypt the file before sending the entire document over</ul>
-            <ul>C: Inform the charity that their isn't an 
-                appropriate method of sharing the information they've requested</ul>
-            <ul>D: Seek further authorisation permission from your line manager</ul>
-            <ul>E: Send only the information the charity requires rather than the whole file</ul>
+            <ul>A: Print out the confidential document and leave it on her colleague's desk</ul>
+            <ul>B: Transfer the confidential document to her personal phone to send to her colleague when she's on the train</ul>
+            <ul>C: Send the email including the confidential document before she leaves the office</ul>
         
-            <p>Answer: E</p>
+            <p>Answer: C</p>
         </div>
 
         <div class="question"> 
             <h3>Question 10</h3>
-            <ul>A: Shutdown your computer every time you leave your desk</ul>
-            <ul>B: Ensure that sensitive or personal material is securely locked away</ul>
-            <ul>C: Always lock removable media, such as external hard drives or SD cards</ul>
-            <ul>D: Keep passwords memorable and similar to one another</ul>
-            <ul>E: You don't need to keep a clear desk when working at home or remotely</ul>
+            <ul>A: Reach out to the other client and tell them to ignore the email</ul>
+            <ul>B: Tell Esteban what he has done and ask him to apologise to the other client</ul>
+            <ul>C: Report the incident to her manager and go from there</ul>
+            <ul>D: Not think about it - it shouldn't be a problem anyway</ul> 
         
-            <p>Answer: B, C</p>
+            <p>Answer: C</p>
         </div>
     </body>
 </html>
