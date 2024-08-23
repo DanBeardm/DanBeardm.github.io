@@ -48,6 +48,21 @@ button:hover {
     padding: 1px 32px;
 }
 
+.to-do-container{
+    border-style: solid;
+    border-color: #333;
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 10px; /* Space between buttons */
+}
+.to-do-list{
+    padding: 1px 32px;
+    justify-content: left;
+}
 footer {
     background-color: #333;
     color: #fff;
