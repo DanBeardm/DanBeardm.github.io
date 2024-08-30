@@ -5,3 +5,7 @@ Smile Training Cheat Sheet
   - Warning Message
   - Some overall styling
   - some fun
+
+  - Folders: CSS, Files, Img, JS, Pages,
+  - Look into Bootstrap, Magnific Pop up & SingleQueryPageNav
+  - 
