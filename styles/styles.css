@@ -22,9 +22,9 @@ nav a {
 .button-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     gap: 10px; /* Space between buttons */
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 button {
@@ -36,9 +36,11 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+
     cursor: pointer;
     transition: background-color 0.3s ease;
+    width: 160px;
+    height: 210px;
 }
 
 button:hover {
