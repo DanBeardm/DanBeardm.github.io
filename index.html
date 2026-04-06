@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Daniel Beardmore | Software Engineer</title>
   <meta name="description" content="Backend-focused software engineering graduate with experience in Java, Kotlin, Docker, SQL, and practical problem-solving." />
-  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="js/jquery.singlePageNav.min.js"></script>  
 </head>
 <body>
   <nav class="nav">
@@ -26,7 +28,7 @@
       <div class="hero-grid">
         <article class="panel hero-card">
           <div class="eyebrow">Backend-focused graduate · Java / Kotlin / Docker</div>
-          <h1>Software Engineer</h1>
+          <h2>Software Engineer</h2>
           <p class="lead">
             I’m Daniel Beardmore, a Software Engineering graduate based in Edinburgh. I enjoy building reliable backend features, debugging real problems, and turning requirements into clean, practical solutions. I’m currently looking for junior software engineering, backend, IT support, or systems-focused roles where I can keep learning and contribute from day one.
           </p>
@@ -257,29 +259,23 @@
   </footer>
 
 <script>
-  document.getElementById('year').textContent = new Date().getFullYear();
+  $(function () {
+    $('#year').text(new Date().getFullYear());
 
-  const navLinks = document.querySelectorAll('.nav-links a');
+    $('.nav-links').singlePageNav({
+      offset: $('.nav').outerHeight(),
+      filter: ':not(.external)',
+      speed: 600,
+      currentClass: 'current',
+      updateHash: false
+    });
 
-  navLinks.forEach(link => {
-    link.addEventListener('click', function (e) {
-      const targetId = this.getAttribute('href');
-
-      if (!targetId.startsWith('#')) return;
-
-      const target = document.querySelector(targetId);
-      if (!target) return;
-
+    $('.brand').on('click', function (e) {
       e.preventDefault();
-
-      const nav = document.querySelector('.nav');
-      const navHeight = nav ? nav.offsetHeight : 0;
-      const targetTop = target.getBoundingClientRect().top + window.pageYOffset - navHeight - 16;
-
-      window.scrollTo({
-        top: targetTop,
-        behavior: 'smooth'
-      });
+      $('html, body').stop().animate(
+        { scrollTop: 0 },
+        600
+      );
     });
   });
 </script>
