@@ -256,8 +256,32 @@
     © <span id="year"></span> Daniel Beardmore. Built for GitHub Pages.
   </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  const navLinks = document.querySelectorAll('.nav-links a');
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', function (e) {
+      const targetId = this.getAttribute('href');
+
+      if (!targetId.startsWith('#')) return;
+
+      const target = document.querySelector(targetId);
+      if (!target) return;
+
+      e.preventDefault();
+
+      const nav = document.querySelector('.nav');
+      const navHeight = nav ? nav.offsetHeight : 0;
+      const targetTop = target.getBoundingClientRect().top + window.pageYOffset - navHeight - 16;
+
+      window.scrollTo({
+        top: targetTop,
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
 </body>
 </html>
