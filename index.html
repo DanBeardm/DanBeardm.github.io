@@ -3,213 +3,261 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Daniel Beardmore</title>
-
-  <link rel="stylesheet" href="css/style.css" />
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-  <script src="js/jquery.singlePageNav.min.js"></script>
+  <title>Daniel Beardmore | Software Engineer</title>
+  <meta name="description" content="Backend-focused software engineering graduate with experience in Java, Kotlin, Docker, SQL, and practical problem-solving." />
+  <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-
-  <!-- Navigation -->
-  <nav id="nav">
-    <ul>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#resume">Resume</a></li>
-      <li><a href="#projects">Projects</a></li>
-    </ul>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">Daniel Beardmore</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
   </nav>
 
-  <!-- Placeholder Sections -->
-  <section id="about" class="fade-in">
-  <h2>About Me</h2>
-  <p>
-    I'm Daniel Beardmore, a Software Engineering graduate with a passion for creating clean, user-focused applications.
-    I enjoy solving complex problems with simple code and building intuitive interfaces. My academic background, combined
-    with hands-on personal projects and team-based coursework, has helped me develop strong skills in both frontend and
-    backend technologies.
-  </p>
-  <p>
-    Outside of tech, I enjoy snowboarding, playing basketball, and building custom PCs. I'm currently looking for
-    opportunities where I can grow as a developer and contribute to meaningful projects.
-  </p>
-</section>
+  <main id="top" class="container">
+    <section class="hero">
+      <div class="hero-grid">
+        <article class="panel hero-card">
+          <div class="eyebrow">Backend-focused graduate · Java / Kotlin / Docker</div>
+          <h1>Software Engineer</h1>
+          <p class="lead">
+            I’m Daniel Beardmore, a Software Engineering graduate based in Edinburgh. I enjoy building reliable backend features, debugging real problems, and turning requirements into clean, practical solutions. I’m currently looking for junior software engineering, backend, IT support, or systems-focused roles where I can keep learning and contribute from day one.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="mailto:dan.beardmore@hotmail.com">Get in touch</a>
+            <a class="btn btn-secondary" href="https://github.com/DanBeardm" target="_blank" rel="noreferrer">View GitHub</a>
+            <a class="btn btn-secondary" href="/files/CV_02-2026.pdf" target="_blank" rel="noreferrer">Current CV</a>
+          </div>
+          <div class="quick-facts">
+            <div class="fact">
+              <strong>Focus</strong>
+              <span>Backend development, debugging, automation, practical delivery</span>
+            </div>
+            <div class="fact">
+              <strong>Based in</strong>
+              <span>Edinburgh, UK</span>
+            </div>
+            <div class="fact">
+              <strong>Main tools</strong>
+              <span>Java, Kotlin, Python, Docker, Git, SQLite, JSON</span>
+            </div>
+            <div class="fact">
+              <strong>Strengths</strong>
+              <span>Clear communication, troubleshooting, teamwork, ownership</span>
+            </div>
+          </div>
+        </article>
 
-  <section id="skills" class="fade-in">
-  <h2>Skills</h2>
-  <div class="skills-grid">
-    
-    <!-- Column 1: Languages -->
-    <div class="skills-column">
-      <h3>Languages</h3>
-      <div class="skill"><span>Python</span><div class="bar proficient" data-level="Proficient"></div></div>
-      <div class="skill"><span>C#</span><div class="bar proficient" data-level="Proficient"></div></div>
-      <div class="skill"><span>C++</span><div class="bar proficient" data-level="Proficient"></div></div>
-      <div class="skill"><span>Java</span><div class="bar novice" data-level="Novice"></div></div>
-      <div class="skill"><span>Web (HTML,CSS,JS)</span><div class="bar novice"data-level="Novice"></div></div>
-      
-    </div>
-
-    <!-- Column 2: Skills -->
-     <div class="skills-column">
-      <h3>Skills</h3>
-      <div class="skill"><span>Software Development</span><div class="bar expert" data-level="Expert"></div></div>
-      <div class="skill"><span>Data Engineering</span><div class="bar expert" data-level="Expert"></div></div>
-      <div class="skill"><span>Data Visualization</span><div class="bar expert" data-level="Expert"></div></div>
-      <div class="skill"><span>Technical Writing</span><div class="bar proficient" data-level="Proficient"></div></div>
-      <div class="skill"><span>Collaborative Programming</span><div class="bar proficient" data-level="Proficient"></div></div>
-      <div class="skill"><span>Agile / Scrum</span><div class="bar proficient" data-level="Proficient"></div></div>
-    </div>
-    
-
-    <!-- Column 3: Tech -->
-     <div class="skills-column">
-      <h3>Technologies</h3>
-      <div class="skill"><span>Docker</span><div class="bar proficient" data-level="Proficient"></div></div>
-      <div class="skill"><span>Git</span><div class="bar proficient" data-level="Proficient"></div></div>
-      <div class="skill"><span>AWS</span><div class="bar novice" data-level="Novice"></div></div>
-    </div>
-  </div>
-</section>
-
-
-  <section id="resume" class="fade-in">
-  <h2>Resume</h2>
-
-  <div class="resume-container">
-    <!-- Experience Column -->
-    <div class="resume-left">
-      <h3>Experience</h3>
-
-      <div class="job-entry">
-        <h4>Shift Leader<span>— Tesco (Jan 2025 – Present)</span></h4>
-        <ul>
-          <li>Supported section leadership with stock management and team supervision duties</li>
-          <li>Ensured accurate waste recording and assisted with shrinkage reduction</li>
-          <li>Maintained health, safety, and licensing compliance standards</li>
-        </ul>
+        <aside class="panel summary-card">
+          <div>
+            <h3>What I bring</h3>
+            <p>Hands-on technical work alongside customer-facing experience in fast-paced environments.</p>
+          </div>
+          <div class="mini-list">
+            <div class="mini-item">
+              <h3>Backend mindset</h3>
+              <p>Strong interest in server-side logic, APIs, data handling, and debugging.</p>
+            </div>
+            <div class="mini-item">
+              <h3>Live environment experience</h3>
+              <p>Built and maintained Java/Kotlin features, config-driven behaviour, and fixes for an online game platform.</p>
+            </div>
+            <div class="mini-item">
+              <h3>Reliable under pressure</h3>
+              <p>Experience handling operations, procedures, and issue resolution in high-volume customer environments.</p>
+            </div>
+          </div>
+        </aside>
       </div>
+    </section>
 
-      <div class="job-entry">
-        <h4>Bartender <span>— Hilton Hotels (2021 – 2025)</span></h4>
-        <ul>
-          <li>Delivered customer service in a fast-paced hospitality environment</li>
-          <li>Prepared drinks, handled orders, and ensured guest satisfaction</li>
-        </ul>
+    <section id="about" class="section">
+      <div class="section-head">
+        <div>
+          <h2>About</h2>
+          <p class="section-sub">A sharper summary than a generic student-style introduction.</p>
+        </div>
       </div>
-
-      
-    </div>
-
-    <!-- Education Column -->
-    <div class="resume-right">
-      <h3>Education</h3>
-
-      <div class="edu-entry">
-        <h4>Edinburgh Napier University</h4>
-        <p>BEng Software Engineering</p>
-        <p><em>Graduated: 2024</em></p>
+      <div class="card">
+        <p>
+          My background combines software engineering study, team-based project work, and practical real-world responsibility. I’ve worked on Java, Kotlin, Python, C#, Docker, SQLite, and Git-based projects, and I especially enjoy technical problem-solving: understanding how a system works, finding the cause of an issue, and improving it in a maintainable way.
+          <br><br>
+          Alongside that, I’ve built strong communication and reliability through customer-facing roles where accuracy, compliance, and working calmly under pressure mattered every day. That mix helps me contribute technically while also being easy to work with.
+        </p>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <div class="resume-download">
-    <a href="files/Daniel_Beardmore_CV2.pdf" class="btn" target="_blank">📄 Download Resume</a>
-  </div>
-</section>
-
-
-<section id="projects" class="fade-in">
-  <h2>Projects</h2>
-  <div class="project-grid">
-
-    <div class="project-card">
-      <!--<img src="img/java-logo.png" alt="Java logo" />-->
-      <h3>Software Engineering Methods Coursework</h3>
-      <p class="sub">Group Project</p>
-      <p>
-        <strong>Microservice-based Web Application (Java & Spring Boot)</strong><br><br>
-        A team-based software engineering project built during university coursework. Developed with Java, Spring Boot, 
-        Docker, and Maven, the system follows a microservice architecture and includes CI/CD integration via Travis CI and Codecov.<br><br>
-
-        The project included full-stack development, version control with Git, and DevOps practices like continuous integration and automated testing.
-  </p>
-      <div class="buttons">
-        <!-- <a href="#" class="btn">🌐 Website</a> -->
-        <a href="https://github.com/DanBeardm/semCoursework" class="btn">💻 Github</a>
+    <section id="skills" class="section">
+      <div class="section-head">
+        <div>
+          <h2>Skills</h2>
+          <p class="section-sub">Organised around what a recruiter or hiring manager can quickly scan.</p>
+        </div>
       </div>
-    </div>
+      <div class="grid-3">
+        <article class="card">
+          <h3>Languages</h3>
+          <div class="tag-row">
+            <span class="tag">Java</span>
+            <span class="tag">Kotlin</span>
+            <span class="tag">Python</span>
+            <span class="tag">C#</span>
+            <span class="tag">C / C++</span>
+            <span class="tag">HTML / CSS</span>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Technologies</h3>
+          <div class="tag-row">
+            <span class="tag">Docker</span>
+            <span class="tag">Git</span>
+            <span class="tag">Gradle</span>
+            <span class="tag">SQLite</span>
+            <span class="tag">JSON / YAML</span>
+            <span class="tag">REST APIs</span>
+            <span class="tag">AWS</span>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Working style</h3>
+          <div class="tag-row">
+            <span class="tag">Debugging</span>
+            <span class="tag">OOP</span>
+            <span class="tag">Technical Writing</span>
+            <span class="tag">Agile / Scrum</span>
+            <span class="tag">Problem Solving</span>
+            <span class="tag">Communication</span>
+          </div>
+        </article>
+      </div>
+    </section>
 
-    <div class="project-card">
-      <!--<img src="img/csharp-logo.png" alt="C# logo" />-->
-      <h3>Napier Bank Messaging</h3>
-      <p class="sub">University Coursework</p>
-      <p>
-        <strong>Message Filtering and Processing Engine</strong>
-        <br><br>
-        3rd Year Coursework Project:
-        Desktop application built using C# and WPF to process and filter SMS, Email, and Tweet messages.
-        <br><br>
-        Napier Bank Messaging detects message type, expands abbreviations, logs hashtags and mentions, 
-        blocks URLs, and saves processed messages as JSON. It features both manual input and bulk processing support 
-        via a user-friendly WPF interface.
+    <section id="projects" class="section">
+      <div class="section-head">
+        <div>
+          <h2>Projects</h2>
+          <p class="section-sub">Project cards with stronger outcomes and cleaner framing.</p>
+        </div>
+      </div>
+      <div class="grid-2">
+        <article class="card">
+          <h3>Freelance Backend Development</h3>
+          <p>
+            Built and maintained backend features for an online game platform using Java and Kotlin. Worked with configuration-driven behaviour, issue triage, logs, releases, and fixes in a live environment.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Java</span>
+            <span class="tag">Kotlin</span>
+            <span class="tag">JSON / YAML</span>
+            <span class="tag">Git</span>
+            <span class="tag">Debugging</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Napier Bank Messaging System</h3>
+          <p>
+            Desktop application built in C# and WPF to process internal bank-style messages. Expanded abbreviations, validated input, and improved consistency and clarity in communication.
+          </p>
+          <div class="tag-row">
+            <span class="tag">C#</span>
+            <span class="tag">WPF</span>
+            <span class="tag">Desktop App</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/DanBeardm/NapierBankMessaging" target="_blank" rel="noreferrer">GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Software Engineering Methods</h3>
+          <p>
+            Team software engineering project using Java, Docker, and UML-based design. Contributed backend functionality, modular components, and collaborative development practices across the full project lifecycle.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Java</span>
+            <span class="tag">Docker</span>
+            <span class="tag">UML</span>
+            <span class="tag">Team Project</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/DanBeardm/semCoursework" target="_blank" rel="noreferrer">GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Men’s Shed Tool Booking System</h3>
+          <p>
+            Developed the user-facing side of a booking and inventory system for a community tool-sharing organisation, including registration, browsing tools, and making bookings.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Python</span>
+            <span class="tag">SQLite</span>
+            <span class="tag">CSV</span>
+            <span class="tag">UI Development</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-head">
+        <div>
+          <h2>Experience</h2>
+          <p class="section-sub">Keep this concise and relevant so it supports your applications rather than repeating your full CV.</p>
+        </div>
+      </div>
+      <div class="timeline-wrap">
+        <article class="timeline">
+          <div class="timeline-meta">July 2025 – Present</div>
+          <h3>Freelance Backend Developer · Online Game Platform</h3>
+          <p>Delivered backend features and fixes in a live environment using Java/Kotlin and configuration-based systems.</p>
+          <ul class="clean">
+            <li>Built and maintained server-side features and bug fixes.</li>
+            <li>Worked with JSON/YAML-based behaviour, permissions, and automation rules.</li>
+            <li>Investigated reported issues, reproduced problems from logs, and shipped reliable fixes.</li>
+            <li>Used Git for traceable changes and versioned releases.</li>
+          </ul>
+        </article>
+
+        <article class="timeline">
+          <div class="timeline-meta">Jan 2025 – Present</div>
+          <h3>Shift Leader · Tesco</h3>
+          <p>Operational responsibility in a high-volume environment with a strong emphasis on process accuracy, customer support, and compliance.</p>
+          <ul class="clean">
+            <li>Handled opening/closing duties, cash handling, and day-to-day operations.</li>
+            <li>Supported and trained new starters on procedures and standards.</li>
+            <li>Resolved customer and operational issues calmly under pressure.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-box">
+      <h2>Let’s connect</h2>
+      <p class="section-sub" style="margin: 0 auto;">
+        I’m open to junior software engineering, backend, IT support, and systems-focused opportunities.
       </p>
-
-      <div class="buttons">
-        <!--<a href="#" class="btn">📄 Docs</a> -->
-        <a href="https://github.com/DanBeardm/NapierBankMessaging" class="btn">💻 Github</a>
+      <div class="contact-links">
+        <a class="btn btn-primary" href="mailto:dan.beardmore@hotmail.com">dan.beardmore@hotmail.com</a>
+        <a class="btn btn-secondary" href="https://github.com/DanBeardm" target="_blank" rel="noreferrer">GitHub</a>
       </div>
-    </div>
+    </section>
+  </main>
 
-    <!--<div class="project-card">
-      <img src="img/csharp-logo.png" alt="C# logo" />
-      <h3>Mens Shed </h3>
-      <p class="sub">Subtitle</p>
-      <p>
-        ...
-      </p>
-      <div class="buttons">
-        <a href="#" class="btn">📄 Docs</a> 
-        <a href="https://github.com/JBLACK2889/MENS-SHED-SOC09109" class="btn">💻 Github</a>
-      </div>
-    </div> -->
+  <footer>
+    © <span id="year"></span> Daniel Beardmore. Built for GitHub Pages.
+  </footer>
 
-  </div>
-</section>
-
-
-  <!-- Theme Toggle Button (optional) -->
-  <button id="theme-toggle" class="theme-toggle-btn" title="Toggle Theme">🌓</button>
-
-  <!-- JavaScript to load content and handle theme -->
- <script>
-    // Single Page Nav
-    $('#nav ul').singlePageNav({
-      offset: 60,
-      filter: ':not(.external)',
-      speed: 600
-    });
-
-    // Theme toggle with localStorage
-    if (localStorage.getItem("theme") === "light") {
-      document.body.classList.add("light-mode");
-    }
-
-    $("#theme-toggle").on("click", function () {
-      const isLight = document.body.classList.toggle("light-mode");
-      localStorage.setItem("theme", isLight ? "light" : "dark");
-    });
- // Scroll fade-in
-      const fadeEls = document.querySelectorAll(".fade-in");
-      const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) entry.target.classList.add("visible");
-        });
-      });
-      fadeEls.forEach(el => observer.observe(el));
-    
-</script>
-
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
