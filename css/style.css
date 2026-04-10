@@ -415,7 +415,137 @@ ul.clean {
 .nav-links a.current {
   color: var(--text);
 }
+.screenshot-slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
 
+.slides {
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  display: none;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.slide.active {
+  display: block;
+}
+
+.slide img {
+  width: 100%;
+  display: block;
+  max-height: 560px;
+  object-fit: contain;
+  background: rgba(255,255,255,0.02);
+}
+
+.slide-caption {
+  padding: 1.15rem 1.25rem 1.25rem;
+}
+
+.slide-caption h3 {
+  margin-bottom: 0.45rem;
+}
+
+.slide-caption p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.slider-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,0.04);
+  color: var(--text);
+  font-size: 1.8rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+  flex-shrink: 0;
+}
+
+.slider-btn:hover,
+.slider-btn:focus-visible {
+  transform: translateY(-2px);
+  border-color: rgba(255,255,255,0.18);
+  background: rgba(255,255,255,0.08);
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1rem;
+}
+
+.slider-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  border: none;
+  background: rgba(255,255,255,0.22);
+  cursor: pointer;
+  transition: transform 0.18s ease, background 0.18s ease;
+}
+
+.slider-dot.active {
+  background: var(--accent);
+  transform: scale(1.15);
+}
+
+@media (max-width: 920px) {
+  .screenshot-slider {
+    gap: 0.65rem;
+  }
+
+  .slider-btn {
+    width: 42px;
+    height: 42px;
+    font-size: 1.5rem;
+  }
+
+  .slide img {
+    max-height: 420px;
+  }
+}
+
+@media (max-width: 640px) {
+  .screenshot-slider {
+    display: block;
+  }
+
+  .slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    background: rgba(11, 16, 32, 0.75);
+  }
+
+  .slider-btn.prev {
+    left: 0.75rem;
+  }
+
+  .slider-btn.next {
+    right: 0.75rem;
+  }
+
+  .slide img {
+    max-height: 300px;
+  }
+}
 footer {
   padding: 0 0 2.5rem;
   color: var(--muted);
